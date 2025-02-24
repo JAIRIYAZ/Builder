@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Materials</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">🛠️ <span>BuildZone</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="search.html" class="active">Search</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="search-container">
+      <h1>Search Materials & Shops</h1>
+      <div class="search-bar">
+        <input type="text" placeholder="Search materials or shops..." id="search-input">
+        <button class="search-button" onclick="performSearch()">🔍 Search</button>
+      </div>
+    </section>
+    <section class="results">
+      <h2>Search Results</h2>
+      <div id="result-list" class="result-list">
+        <!-- Dynamic search results will appear here -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 BuildZone | Your Construction Companion</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
